@@ -1,0 +1,8 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "react/prop-types": "error",
+    "react/no-unused-prop-types": "error",
+    "react/sort-prop-types": "error"
+  }
+}

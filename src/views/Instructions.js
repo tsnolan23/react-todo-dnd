@@ -1,22 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
+
+import Heading from '../common/Heading'
+import Kbd from '../common/Kbd'
 
 const Container = styled.div`
   padding: 8px 8px 32px 8px;
-`;
-const Heading = styled.h1`
-  font-size: 18px;
-`;
-const Kbd = styled.span`
-  font-family: "Menlo", "Monaco", "Consolas", monospace;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  line-height: 18px;
-  border-radius: 3px;
-  padding: 2px 3px;
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-  font-weight: 400;
-  font-size: 90%;
-`;
+`
 
 class Instructions extends React.PureComponent {
   render() {
@@ -44,8 +34,8 @@ class Instructions extends React.PureComponent {
           </li>
         </ul>
       </Container>
-    );
+    )
   }
 }
 
-export default Instructions;
+export default Instructions

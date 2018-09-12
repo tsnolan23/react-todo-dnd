@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
-import ReactDOM from "react-dom";
+import React, { Fragment } from 'react'
+import ReactDOM from 'react-dom'
 
-import Instructions from "./Instructions";
-import Todos from "./Todos";
+import Instructions from './views/Instructions'
+import Todos from './views/Todos'
 
 class App extends React.Component {
   render() {
@@ -11,8 +11,8 @@ class App extends React.Component {
         <Instructions />
         <Todos />
       </Fragment>
-    );
+    )
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'))
