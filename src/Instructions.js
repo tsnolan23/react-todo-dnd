@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  margin: 8px 8px 32px 8px;
+  padding: 8px 8px 32px 8px;
 `;
 const Heading = styled.h1`
   font-size: 18px;
