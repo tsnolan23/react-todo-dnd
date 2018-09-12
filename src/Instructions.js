@@ -28,6 +28,9 @@ class Instructions extends React.PureComponent {
             Cycle through individual to do items by pressing <Kbd>Tab</Kbd>
           </li>
           <li>
+            Go back through individual items by pressing <Kbd>Alt + Tab</Kbd>
+          </li>
+          <li>
             Press <Kbd>Space</Kbd> to select a to do
           </li>
           <li>
