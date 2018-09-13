@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Kbd = styled.span`
+const Kbd = styled.kbd`
   font-family: 'Menlo', 'Monaco', 'Consolas', monospace;
   border: 1px solid rgba(0, 0, 0, 0.25);
   line-height: 18px;
