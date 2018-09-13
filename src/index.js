@@ -12,6 +12,7 @@ const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   height: 100%;
+  max-height: 100%;
   background: #f6f7fb;
 `
 

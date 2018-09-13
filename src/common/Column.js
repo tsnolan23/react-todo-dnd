@@ -9,7 +9,7 @@ import Todo from './Todo'
 const Container = styled.div`
   margin: 0 8px;
   border-radius: 5px;
-  width: 300px;
+  width: 225px;
   flex-shrink: 0;
   background-color: white;
   display: flex;
@@ -22,7 +22,7 @@ const Container = styled.div`
 const TaskList = styled.div`
   padding: 16px;
   flex-grow: 1;
-  height: 250px;
+  height: 225px;
   transition: background-color 0.2s ease;
   background-color: ${props => (props.isDraggingOver ? '#DAE7FE' : 'inherit')};
 `
