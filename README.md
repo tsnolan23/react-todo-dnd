@@ -14,3 +14,5 @@ Initially built by following [this video tutorial](https://egghead.io/courses/be
 1. Navigate into the directory with `cd react-todo-dnd`
 1. Install dependencies with `npm install`
 1. Start up the app with `npm start`
+
+![](https://user-images.githubusercontent.com/12575994/45464479-5d566600-b6d6-11e8-80a8-6f3df2289f60.png)
