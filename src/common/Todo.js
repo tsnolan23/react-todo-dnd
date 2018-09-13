@@ -4,12 +4,18 @@ import styled from 'styled-components'
 import { Draggable } from 'react-beautiful-dnd'
 
 const Container = styled.div`
-  border: 1px solid lightgrey;
+  border: 1px solid #e9e9e9;
+  color: #838689;
+  font-weight: 500;
   padding: 8px;
   margin-bottom: 8px;
-  background: ${props => (props.isDragging ? 'lightgreen' : 'white')};
+  background: ${props => (props.isDragging ? '#fff0db' : 'white')};
+  border-color: ${props => (props.isDragging ? '#fff0db' : '#e9e9e9')};
   border-radius: 2px;
   display: flex;
+  &:last-child {
+    margin-bottom: 0;
+  }
 `
 
 class Todo extends React.Component {

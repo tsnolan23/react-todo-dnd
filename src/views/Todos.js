@@ -9,6 +9,10 @@ import initialData from '../data/todos'
 
 const Container = styled.div`
   display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 12px;
+  box-sizing: border-box;
 `
 
 class Todos extends React.Component {

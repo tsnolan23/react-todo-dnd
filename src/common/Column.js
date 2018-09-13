@@ -7,21 +7,24 @@ import Heading from './Heading'
 import Todo from './Todo'
 
 const Container = styled.div`
-  margin: 8px;
-  border: 1px solid lightgrey;
-  borderradius: 2px;
-  width: 220px;
+  margin: 0 8px;
+  border-radius: 5px;
+  width: 300px;
+  flex-shrink: 0;
   background-color: white;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  min-height: 225px;
+  overflow: hidden;
 `
 
 const TaskList = styled.div`
-  padding: 8px;
+  padding: 16px;
   flex-grow: 1;
   min-height: 100px;
   transition: background-color 0.2s ease;
-  background-color: ${props => (props.isDraggingOver ? 'skyblue' : 'inherit')};
+  background-color: ${props => (props.isDraggingOver ? '#DAE7FE' : 'inherit')};
 `
 
 class Column extends React.Component {
