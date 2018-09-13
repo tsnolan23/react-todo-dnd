@@ -18,10 +18,10 @@ class Instructions extends React.PureComponent {
     return (
       <Container>
         <Line>
-          Cycle through individual to do items by pressing <Kbd>Tab</Kbd>
+          Move to next item with <Kbd>Tab</Kbd>
         </Line>
         <Line>
-          Go back through individual items by pressing <Kbd>Alt + Tab</Kbd>
+          Go back to previous item with <Kbd>Alt + Tab</Kbd>
         </Line>
         <Line>
           Press <Kbd>Space</Kbd> to select a to do
@@ -30,7 +30,7 @@ class Instructions extends React.PureComponent {
           Use the <Kbd>Arrow</Kbd> keys to move the todo
         </Line>
         <Line>
-          Complete the move by pressing <Kbd>Space</Kbd> again
+          Complete the move by pressing <Kbd>Space</Kbd>
         </Line>
         <Line>
           Cancel the move by pressing <Kbd>Esc</Kbd>
