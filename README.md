@@ -6,7 +6,7 @@ A simple app created to explore styled components and a drag and drop interface 
 
 The app uses [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
 
-Built by following [this video tutorial](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd)
+Initially built by following [this video tutorial](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd), but made some design and structure changes along the way
 
 ### Setup
 
