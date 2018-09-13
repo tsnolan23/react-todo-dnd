@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import styled from 'styled-components'
 
+import './index.css'
+
 import GitHubLink from './common/GitHubLink'
 import Instructions from './views/Instructions'
 import Todos from './views/Todos'
@@ -18,10 +20,6 @@ const Container = styled.div`
 `
 
 class App extends React.Component {
-  componentDidMount = () => {
-    document.getElementById('root').style.height = '100%'
-  }
-
   render() {
     return (
       <Container>
