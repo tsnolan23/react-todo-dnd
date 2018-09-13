@@ -14,7 +14,7 @@ const Container = styled.div`
   height: 100%;
   max-height: 100%;
   background: #f6f7fb;
-  overflow: hidden;
+  max-width: 100%;
 `
 
 class App extends React.Component {

@@ -11,8 +11,12 @@ const Container = styled.div`
   display: flex;
   max-width: 100%;
   overflow-x: auto;
-  padding: 12px;
   box-sizing: border-box;
+`
+
+const Scrolling = styled.div`
+  padding: 12px;
+  display: flex;
 `
 
 class Todos extends React.Component {
@@ -82,18 +86,20 @@ class Todos extends React.Component {
         onDragEnd={this.onDragEnd}
       >
         <Container>
-          {columnOrder.map((columnId, index) => {
-            const column = columns[columnId]
-            const columnTasks = column.taskIds.map(taskId => tasks[taskId])
-            return (
-              <Column
-                key={columnId}
-                column={column}
-                tasks={columnTasks}
-                index={index}
-              />
-            )
-          })}
+          <Scrolling>
+            {columnOrder.map((columnId, index) => {
+              const column = columns[columnId]
+              const columnTasks = column.taskIds.map(taskId => tasks[taskId])
+              return (
+                <Column
+                  key={columnId}
+                  column={column}
+                  tasks={columnTasks}
+                  index={index}
+                />
+              )
+            })}
+          </Scrolling>
         </Container>
       </DragDropContext>
     )
