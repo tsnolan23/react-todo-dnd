@@ -22,7 +22,7 @@ const Container = styled.div`
 const TaskList = styled.div`
   padding: 16px;
   flex-grow: 1;
-  min-height: 100px;
+  height: 250px;
   transition: background-color 0.2s ease;
   background-color: ${props => (props.isDraggingOver ? '#DAE7FE' : 'inherit')};
 `

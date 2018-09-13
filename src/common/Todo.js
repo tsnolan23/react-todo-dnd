@@ -13,9 +13,6 @@ const Container = styled.div`
   border-color: ${props => (props.isDragging ? '#fff0db' : '#e9e9e9')};
   border-radius: 2px;
   display: flex;
-  &:last-child {
-    margin-bottom: 0;
-  }
 `
 
 class Todo extends React.Component {
